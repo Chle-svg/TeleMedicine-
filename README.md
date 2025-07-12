@@ -38,6 +38,12 @@ Telemedicine is an online medical consultation system where users can book appoi
 - View users and appointments
 
 ## 7. Database Info
+3. Open phpMyAdmin at [http://localhost/phpmyadmin](http://localhost/phpmyadmin)
+4. Create a database named:
+med_db
+
+5. Import the `med_db.sql` file 
+6. Update `includes/db.php` with your MySQL credentials:
 - Database name: `med_db`  
 - Key tables:  
   - `users`  
