@@ -1,7 +1,7 @@
-# MedConnect - User Manual (WAMP Version)
+# Telemedicine  - User Manual (WAMP Version)
 
 ## 1. Introduction
-MedConnect is an online medical consultation system where users can book appointments, make payments, and receive prescriptions online. Doctors manage appointments, and admins oversee system operations.
+Telemedicine is an online medical consultation system where users can book appointments, make payments, and receive prescriptions online. Doctors manage appointments, and admins oversee system operations.
 
 ## 2. System Requirements
 - PHP >= 7.4  
@@ -56,7 +56,7 @@ MedConnect is an online medical consultation system where users can book appoint
 | Payment not working | Use valid Chapa test key and ensure internet connectivity |
 
 ## 9. Default Admin Login
-- URL: `http://localhost/medconnect/admin_login.php`  
+- URL: `http://localhost/online_medication2/admin_login.php`  
 - Email: `mom@gmail.com`  
 - Password: `Mom12345`  
 
