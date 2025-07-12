@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f5f7fa;
+}
+
+.admin-container {
+    display: flex;
+}
+
+.sidebar {
+    width: 300px;
+    background: #2c3e50;
+    color: white;
+    min-height: 100vh;
+    padding: 20px 0;
+    position: fixed;
+}
+
+.sidebar .logo {
+    display: flex;
+    align-items: center;
+    padding: 0 20px 30px;
+}
+
+.sidebar .logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.sidebar .logo span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 30px;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 12px 25px;
+    transition: 0.3s;
+}
+
+.sidebar ul li a i {
+    margin-right: 10px;
+}
+
+.sidebar ul li a:hover {
+    background: #34495e;
+}
+
+.dropdown-content {
+    display: none;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+       padding-left: 30px;
+}
+
+.main-content {
+    margin-left: 300px;
+    padding: 30px;
+    flex-grow: 1;
+}
+
+header h1 {
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;             /* spacing between cards */
+    flex-wrap: nowrap;     /* keep in one line */
+    justify-content: space-between;  /* spread cards evenly */
+    padding: 10px 0;
+    width: 100%;           /* full width of container */
+    box-sizing: border-box;
+}
+
+.card {
+    flex: 1 1 0;           /* cards grow/shrink equally */
+    min-width: 180px;      /* minimum width so cards don’t get too small */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: center;
+    min-height: 120px;
+}
+
+
+.card h3 {
+    margin: 0;
+    font-size: 24px;
+    color: #3498db;
+}
+
+.card p {
+    margin-top: 10px;
+    color: #555;
+}
+
+.chart-box {
+    margin-top: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+.chart-box canvas {
+    height: 400px !important;  /* adjust height to smaller size */
+    max-width: 100%;
+}
+
+.admin-header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px 25px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+}
+
+.admin-header .header-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.admin-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+}
+
+.admin-profile i {
+    font-size: 24px;
+    color: #3498db;
+}
+
